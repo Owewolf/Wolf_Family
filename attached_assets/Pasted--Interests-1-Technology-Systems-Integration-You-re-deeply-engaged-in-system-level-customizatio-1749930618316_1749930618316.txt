@@ -1,0 +1,70 @@
+🧠 Interests
+
+1. Technology & Systems Integration
+You’re deeply engaged in system-level customization and integration:
+
+    Linux enthusiast (Ultramarine, Ubuntu, Zorin OS).
+
+    Home automation with Home Assistant, integrating Piper (TTS) and Whisper (STT).
+
+    SSH configurations and internal networking (e.g. custom hostnames, IP assignments).
+
+    Use of Raspberry Pi for monitoring your network.
+
+    Integration of smart systems in daily life (e.g. smart gas heater and hot water system).
+
+2. Open-Source Tools & Development
+
+    You favor self-hosted and open technologies: GIMP, LibreCAD, Pandas, Nginx, Wireshark, Ortho4XP, etc.
+
+    You work with formats like .tflite, .onnx, and .hgt, and seem comfortable dealing with model files and AI tools.
+
+    You automate workflows, manipulate file systems via terminal, and handle data with Python and spreadsheets.
+
+3. Aviation & Simulation
+
+    You have a strong interest in aviation, particularly realistic flight simulation (Airbus A320, A330, ToLiss models).
+
+    Use of simulators like X-Plane on Linux/Steam.
+
+    Enthusiastic about realism features like CPDLC, TCAS, LiveTraffic, and weather plugins.
+
+4. Creative, DIY & Sustainability Projects
+
+    You document nature (e.g. photographing a tree daily).
+
+    You explore self-sufficiency ideas: water-based fireplaces with radiator heating, solar-geyser-gas hybrid systems.
+
+    Business interest in beeswax products (natural wraps, leather care).
+
+    House design (LibreCAD for plan tracing and scaling).
+
+5. Web & Content Development
+
+    You create and host multiple websites (Apache/Nginx).
+
+    Use of WordPress for personal/business use (e.g. holiday rental and drone company sites).
+
+    Interested in minimal and functional design (e.g. personal flying log/calendar with map-based route summaries).
+
+💡 Ideas & Values
+
+    Autonomy & Control: You prefer local and open-source solutions over cloud-dependent or proprietary ones.
+
+    Practical Innovation: You combine modern tech (smart thermostats, machine learning, simulators) with real-world goals (comfort, efficiency, business).
+
+    Sustainability & Efficiency: Your approach to heating, water, and product development reflects ecological awareness and optimization.
+
+    Documentation & Analysis: From tree photos to flight logs and spreadsheets, you value organized tracking and reflective processes.
+
+🧍‍♂️ Character Traits
+
+    Curious & Analytical: You frequently ask how systems work, and you investigate deeply (e.g., Wireshark, flight data integration).
+
+    Independent Thinker: You prefer doing things your way, often opting for custom setups over mainstream solutions.
+
+    Problem Solver: You demonstrate resourcefulness in managing complex system setups and resolving integration issues.
+
+    Creative & Observant: Your interests in photography, design, and custom dashboards reflect aesthetic sensitivity and creative drive.
+
+    Forward-Thinking: You're always improving and expanding your capabilities—whether it's adding new features, integrating smarter tech, or starting new ventures.

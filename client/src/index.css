@@ -1,0 +1,196 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(210, 11%, 15%);
+  --muted: hsl(210, 20%, 98%);
+  --muted-foreground: hsl(215, 13%, 65%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(210, 11%, 15%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(210, 11%, 15%);
+  --border: hsl(214, 32%, 91%);
+  --input: hsl(214, 32%, 91%);
+  --primary: hsl(160, 51%, 49%);
+  --primary-foreground: hsl(0, 0%, 100%);
+  --secondary: hsl(145, 15%, 92%);
+  --secondary-foreground: hsl(145, 63%, 25%);
+  --accent: hsl(145, 25%, 90%);
+  --accent-foreground: hsl(145, 63%, 30%);
+  --destructive: hsl(0, 84%, 60%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(160, 51%, 49%);
+  --radius: 0.75rem;
+  
+  /* Modern Wolf's Lair colors */
+  --forest: hsl(160, 51%, 49%);
+  --forest-dark: hsl(160, 51%, 35%);
+  --forest-light: hsl(160, 51%, 95%);
+  --saddle: hsl(25, 85%, 55%);
+  --sandy: hsl(45, 93%, 65%);
+  --warm-gray: hsl(210, 20%, 98%);
+  --slate: hsl(215, 25%, 27%);
+  --slate-light: hsl(215, 25%, 95%);
+}
+
+.dark {
+  --background: hsl(240, 10%, 3.9%);
+  --foreground: hsl(0, 0%, 98%);
+  --muted: hsl(240, 3.7%, 15.9%);
+  --muted-foreground: hsl(240, 5%, 64.9%);
+  --popover: hsl(240, 10%, 3.9%);
+  --popover-foreground: hsl(0, 0%, 98%);
+  --card: hsl(240, 10%, 3.9%);
+  --card-foreground: hsl(0, 0%, 98%);
+  --border: hsl(240, 3.7%, 15.9%);
+  --input: hsl(240, 3.7%, 15.9%);
+  --primary: hsl(207, 90%, 54%);
+  --primary-foreground: hsl(211, 100%, 99%);
+  --secondary: hsl(240, 3.7%, 15.9%);
+  --secondary-foreground: hsl(0, 0%, 98%);
+  --accent: hsl(240, 3.7%, 15.9%);
+  --accent-foreground: hsl(0, 0%, 98%);
+  --destructive: hsl(0, 62.8%, 30.6%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(240, 4.9%, 83.9%);
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-warm-gray text-foreground;
+    background-color: hsl(0, 0%, 98%);
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+  }
+}
+
+@layer utilities {
+  .text-forest {
+    color: hsl(160, 51%, 49%);
+  }
+  
+  .text-forest-dark {
+    color: hsl(160, 51%, 35%);
+  }
+  
+  .text-saddle {
+    color: hsl(25, 85%, 55%);
+  }
+  
+  .text-sandy {
+    color: hsl(45, 93%, 65%);
+  }
+  
+  .text-slate {
+    color: hsl(215, 25%, 27%);
+  }
+  
+  .bg-forest {
+    background-color: hsl(160, 51%, 49%);
+  }
+  
+  .bg-forest-dark {
+    background-color: hsl(160, 51%, 35%);
+  }
+  
+  .bg-forest-light {
+    background-color: hsl(160, 51%, 95%);
+  }
+  
+  .bg-saddle {
+    background-color: hsl(25, 85%, 55%);
+  }
+  
+  .bg-sandy {
+    background-color: hsl(45, 93%, 65%);
+  }
+  
+  .bg-warm-gray {
+    background-color: hsl(210, 20%, 98%);
+  }
+  
+  .bg-slate {
+    background-color: hsl(215, 25%, 27%);
+  }
+  
+  .bg-slate-light {
+    background-color: hsl(215, 25%, 95%);
+  }
+  
+  .hover\:bg-sandy:hover {
+    background-color: hsl(45, 93%, 65%);
+  }
+  
+  .hover\:text-forest:hover {
+    color: hsl(160, 51%, 49%);
+  }
+  
+  .hover\:text-forest-dark:hover {
+    color: hsl(160, 51%, 35%);
+  }
+  
+  .hover\:text-saddle:hover {
+    color: hsl(25, 85%, 55%);
+  }
+  
+
+  
+  .font-sans {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Family member specific fonts */
+  .font-farrah {
+    font-family: 'Shadows Into Light', cursive;
+  }
+  
+  .font-carter {
+    font-family: 'Cedarville Cursive', cursive;
+  }
+  
+  .font-steven {
+    font-family: 'Red Hat Display', sans-serif;
+  }
+  
+  .font-liesel {
+    font-family: 'Unkempt', cursive;
+  }
+  
+  /* Site-wide fonts */
+  .font-roboto {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .font-dynapuff {
+    font-family: 'DynaPuff', cursive;
+  }
+  
+  .gradient-hero {
+    background: linear-gradient(135deg, hsl(160, 51%, 49%) 0%, hsl(160, 51%, 35%) 100%);
+  }
+  
+  .card-modern {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    border: 1px solid hsl(214, 32%, 91%);
+  }
+  
+  .shadow-modern {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+  
+  .shadow-modern-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+}
