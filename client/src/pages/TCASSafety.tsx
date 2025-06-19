@@ -18,7 +18,7 @@ export default function TCASSafety() {
                 </div>
                 <div className="flex-1">
                   <CardTitle className="text-3xl mb-2 text-emerald-600">
-                    TCAS Safety Protocol Advanced
+                    TCAS Safety
                   </CardTitle>
                   <Badge variant="secondary" className="mb-4">
                     Aviation Safety Leadership

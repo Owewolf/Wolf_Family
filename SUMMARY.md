@@ -40,4 +40,4 @@
 - Mobile-responsive interface
 - Type-safe full-stack implementation
 
-The application is now fully functional with smooth curved flight paths, intelligent airport markers, and comprehensive flight tracking capabilities.
+Designed by the Wolf
