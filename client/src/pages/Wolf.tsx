@@ -56,8 +56,8 @@ export default function Wolf() {
     },
     {
       icon: Trophy,
-      title: "Advanced Aviation Certifications",
-      subtitle: "Weather Systems & Navigation",
+      title: "Home Assistant & Automation",
+      subtitle: "Solar & Smart Farming",
       description: "Comprehensive certifications in aviation weather systems, navigation technologies, and advanced flight operations, ensuring the highest standards of aerial safety and precision.",
       action: "Click to explore details →",
       link: "/accomplishments/aviation-certifications"
