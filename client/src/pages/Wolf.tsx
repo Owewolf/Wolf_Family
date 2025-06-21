@@ -48,9 +48,9 @@ export default function Wolf() {
   const accomplishments = [
     {
       icon: "airplane",
-      title: "23,500+ Commercial Flight Hours",
+      title: "+ 23,000 Flying Hours",
       subtitle: "Exemplary Safety Record",
-      description: "Over two decades of commercial aviation experience with an unblemished safety record, demonstrating exceptional skill in aircraft operation, weather management, and crisis response.",
+      description: "Over three decades of commercial aviation experience with an unblemished safety record, demonstrating exceptional skill in aircraft operation, weather management, and crisis response.",
       action: "Click to explore details →",
       link: "/accomplishments/flight-hours"
     },

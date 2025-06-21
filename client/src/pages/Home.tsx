@@ -9,15 +9,15 @@ import MapBlock from "@/components/blocks/MapBlock";
 
 export default function Home() {
   const { data: blocks = [], isLoading } = useQuery<Block[]>({
-    queryKey: ['/api/blocks?pageId=home'],
+    queryKey: ["/api/blocks?pageId=home"],
   });
 
   const scrollToMap = () => {
-    const mapSection = document.getElementById('map');
+    const mapSection = document.getElementById("map");
     if (mapSection) {
       mapSection.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start'
+        behavior: "smooth",
+        block: "start",
       });
     }
   };
@@ -45,23 +45,23 @@ export default function Home() {
         <main className="lg:w-2/3">
           <HeroBlock
             title="Welcome to Wolf's Lair"
-            subtitle="Our Family Farm in the Heart of South Africa"
+            subtitle="Our Heart in the Tsitsikamma"
             imageUrl="https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=1932&h=1088"
             onScrollToMap={scrollToMap}
           />
-          
+
           <ContentBlock
             title="Our Story"
             content="Welcome to Wolf's Lair, where our family has been cultivating the land and creating memories for generations. Nestled in the beautiful South African countryside, our farm represents more than just agriculture – it's a testament to family values, hard work, and our deep connection to the earth.
 
 Join us as we share our daily adventures, farming insights, and the joys of rural family life. Each member of our family brings their unique perspective to our shared story."
           />
-          
+
           <PostBlock />
           <MapBlock />
           <FamilyBlock />
         </main>
-        
+
         <Sidebar />
       </div>
     </div>
